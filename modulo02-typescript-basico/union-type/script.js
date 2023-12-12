@@ -10,4 +10,4 @@ function insNumber(value) {
 }
 console.log(insNumber('Valeu'));
 const button = document.querySelector('button');
-button?.click();
+button === null || button === void 0 ? void 0 : button.click();
