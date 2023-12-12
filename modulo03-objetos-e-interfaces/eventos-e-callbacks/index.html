@@ -4,12 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+<!-- <style>
+  body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+</style> -->
 
 <body>
-
-  <script src="script.js"></script>
+  <header id="header">
+    <a id="logo" href="">Logo</a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" aria-expanded="false" aria-haspopup="true" aria-controls="menu" id="btn-mobile">
+        Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Produtos</a></li>
+        <li><a href="/">Portfólio</a></li>
+        <li><a href="/">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <button>Login</button> -->
+  <script src="exercicio.js"></script>
 </body>
 
 </html>
