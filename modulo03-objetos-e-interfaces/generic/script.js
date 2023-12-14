@@ -19,13 +19,20 @@
 // }
 // notNull("Bruno")?.toLowerCase();
 // notNull(200)?.toFixed();
-function tipoDado(a) {
-    const resultado = {
-        dado: a,
-        tipo: typeof a,
-    };
-    console.log(resultado);
-    return resultado;
+// function tipoDado<T>(a: T) {
+//   const resultado = {
+//     dado: a,
+//     tipo: typeof a,
+//   };
+//   console.log(resultado);
+//   return resultado;
+// }
+// tipoDado(true).tipo;
+// tipoDado(250).tipo;
+function extractText(el) {
+    return el.innerText;
 }
-tipoDado(true).tipo;
-tipoDado(250).tipo;
+const link = document.querySelector("a");
+if (link) {
+    console.log(extractText(link));
+}
