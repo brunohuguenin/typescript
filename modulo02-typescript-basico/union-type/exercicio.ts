@@ -15,4 +15,5 @@ function toNumber(valor: number | string) {
   }
 }
 
-console.log(toNumber(true))
+console.log(toNumber('5786'))
+// console.log('valeu')
